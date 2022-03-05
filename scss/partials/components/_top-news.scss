@@ -1,0 +1,27 @@
+/* Gallery Section */
+#posts {
+    .post-card {
+        .post-details {
+            img {
+                height: calc(calc(calc(100% - 80px) * 9) / 16) !important;
+            }
+        }
+        .cta {
+            button img {
+                height: 22px;
+            }
+        }
+    }
+}
+
+.modal {
+    .image-details {
+        img {
+            height: 400px;
+        }
+    }
+}
+
+.post-image {
+    height: calc(calc(calc(100% - 80px) * 9) / 16) !important;
+}

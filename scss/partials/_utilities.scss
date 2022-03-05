@@ -1,0 +1,7 @@
+@for $i from 1 through 15 {
+    $size: $i * 10;
+    .img-#{$size} {
+        height: #{$size}px;
+        width: #{$size}px;
+    }
+}

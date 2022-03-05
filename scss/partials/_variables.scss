@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Nunito:wght@400;500;700&family=Oleo+Script+Swash+Caps&display=swap");
+$font-family: "Nunito", cursive;
+$banner-font: "Inter", cursive;
+$black: #000;
+$white: #fff;
+
+$light: $white;
+
+$background-color: #eff0fb;
+$nav-item-color: #101730;
+$primary: #8655ff;
+$secondary: #262626;
+$default: #8e8e8e;
+$body-background: $background-color;
+$body-bg: $background-color;
+$spacer: 1rem;
+$searchbar-background: #1f2937;
+// bootstrap variables and function
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
